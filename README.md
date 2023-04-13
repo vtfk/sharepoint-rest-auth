@@ -1,2 +1,2 @@
-# sharepoint-rest-api
-Package for easier authentication and calls to the Sharepoint rest api
+# sharepoint-rest-auth
+Package for easier authentication to sharepoint rest api with app registration and certificate
