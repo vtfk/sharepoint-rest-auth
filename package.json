@@ -1,6 +1,6 @@
 {
   "name": "@vtfk/sharepoint-rest-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package for easier authentication to sharepoint rest api with app registration and certificate",
   "main": "index.js",
   "scripts": {
