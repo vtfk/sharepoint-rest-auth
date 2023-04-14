@@ -1,0 +1,31 @@
+{
+  "name": "@vtfk/sharepoint-rest-auth",
+  "version": "1.0.0",
+  "description": "Package for easier authentication to sharepoint rest api with app registration and certificate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtfk/sharepoint-rest-auth.git"
+  },
+  "keywords": [
+    "sharepoint",
+    "auth"
+  ],
+  "author": "jorgtho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtfk/sharepoint-rest-auth/issues"
+  },
+  "homepage": "https://github.com/vtfk/sharepoint-rest-auth#readme",
+  "dependencies": {
+    "@azure/msal-node": "^1.17.0",
+    "node-forge": "^1.3.1"
+  },
+  "devDependencies": {
+    "axios": "^1.3.5",
+    "dotenv": "^16.0.3"
+  }
+}
