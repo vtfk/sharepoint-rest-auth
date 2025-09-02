@@ -38,7 +38,7 @@ module.exports = async options => {
   if (!options.tenantName) {
     throw Error('Missing required input: options.tenantName')
   }
-  
+
   const certificate = {
     cert: '',
     key: ''
