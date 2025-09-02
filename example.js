@@ -2,8 +2,10 @@
   const axios = require('axios').default
   const getSpToken = require('./index')
   const { readFileSync } = require('fs')
-  const { PFX_PATH, PFX_PRIVATE_KEY_PASSPHRASE, THUMBPRINT, CLIENT_ID, TENANT_ID, TENANT_NAME } = require('dotenv').config()
+  require('dotenv').config()
 
+  const { PFX_PATH, PFX_PRIVATE_KEY_PASSPHRASE, THUMBPRINT, CLIENT_ID, TENANT_ID, TENANT_NAME } = process.env
+ 
   const pfxcert = readFileSync(PFX_PATH).toString('base64')
   
   const authOptions = {
